@@ -8,3 +8,5 @@ while True:
     pag.moveTo(x,y,0.5)
     pag.leftClick(x,y,0.5)
     time.sleep(2)
+
+
