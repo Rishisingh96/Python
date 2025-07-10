@@ -1,11 +1,11 @@
 # 5! = 1 X 2 X 3 X 4 X 5
 
-n = int(input("Enter the number: "))
-product = 1
-for i in range(1, n+1):
-    product = product * i
+# n = int(input("Enter the number: "))
+# product = 1
+# for i in range(1, n+1):
+#     product = product * i
 
-print(f"The factorial of {n} is {product}")
+# print(f"The factorial of {n} is {product}")
 
 
 '''
@@ -47,13 +47,13 @@ Har step pe i ka value change hota hai automatically
 Tumne i manually define nahi kiya, because for loop ne wo kaam khud kar diya.
 '''
 
-# n = int(input("Enter your number: "))
-# fact = 1
+n = int(input("Enter your number: "))
+fact = 1
 
-# for i in range(n, 0, -1):  # i goes from n to 1
-#     fact *= i
+for i in range(n, 0, -1):  # i goes from n to 1
+    fact *= i
 
-# print("Factorial of", n, "is:", fact)
+print("Factorial of", n, "is:", fact)
 
 
 '''ava for (int i = n; i >= 1; i--)
