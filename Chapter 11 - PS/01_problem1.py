@@ -9,9 +9,9 @@ class TwoDVector:
 
 class ThreeDVector(TwoDVector):
     def __init__(self, i, j, k):
-        super().__init__(i, j)
+        super().__init__(i, j)      
         self.k = k
-
+    
     def show(self):
         print(f"The vector is {self.i}i + {self.j}j + {self.k}k")
 
